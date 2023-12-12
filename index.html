@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+  <style>
+    @font-face {
+      font-family: Chiller;
+      src: url('./assets/chiller.ttf');
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: auto;
+      background-color: black;
+      color: white;
+      /* set the same font as game for body */
+      font-family: Chiller;
+    }
+
+    h1 {
+      text-align: left;
+      padding-left: 10%;
+    }
+
+    p {
+      font-size: 20pt;
+      padding: 10% 10% 10% 10%;
+      padding-top: 0px;
+    }
+
+    main {
+      padding-top: 35px;
+      display: flex;
+      /* center canvas */
+      justify-content: center;
+    }
+
+    canvas {
+      /* set border to white to match theme */
+      border: 1px solid white;
+      cursor: url('./assets/cursor.cur'), auto;
+    }
+
+    canvas#canvas {
+      /* set the invisible canvas size to 0 to make borders look neat on the actual game canvas */
+      width: 0px;
+      height: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <canvas id="canvas"></canvas>
+  </main>
+  <!--Loads js files in order of master file-->
+  <script src="variables.js"></script>
+  <script src="player.js"></script>
+  <script src="checkpoint.js"></script>
+  <script src="collisions.js"></script>
+  <script src="enemy.js"></script>
+  <script src="dialog.js"></script>
+  <script src="shooting.js"></script>
+  <script src="sketch.js"></script>
+  <script src="handleWebScroll.js"></script>
+
+  <br> <br> <br>
+  <h1>About the game:</h1>
+  <p>The goal of the game is to keep your character alive and kill enemies.<br>By killing enemies, the
+    player gains hope.<br>This can then be used to unlock checkpoints and move on to
+    further levels.<br>Throughout the game, the player will read through a story of the character and
+    their state of depression.<br>Finish the game to gain insight into the character’s mental state and
+    how their life continues. (Hint: it’s all an illusion!)</p>
+  <h1>Controls:</h1>
+  <p> Use WASD/Arrow keys to move.<br>Use the mouse to point and click to shoot.<br>Press 'E' when near a checkpoint to
+    interact with it</p>
+  <h1>Creators:</h1>
+  <p>Akshay Sathish<br>Adam Bishop<br>Sofia Vargas</p>
+</body>
+
+</html>
