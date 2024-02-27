@@ -12,8 +12,13 @@ The goal of this game is to navigate through challenges, keeping your character 
 
 Hosted live [here](https://users.csc.calpoly.edu/~aksathis/nocturne_v1.2/)
 
+## Screenshots
+<img src="https://github.com/CyberPixel44/nocturne/assets/37630423/1ebfa986-546c-4503-b189-5108be6a74ad" width="500" height="500">
+<img src="https://github.com/CyberPixel44/nocturne/assets/37630423/5539b56c-02aa-4a22-b331-a56087b9e75d" width="500" height="500">
+
+
 ## Creators
 
-- Akshay Sathish
-- Adam Bishop
-- Sofia Vargas
+- Akshay .S
+- Adam .B
+- Sofia .V
